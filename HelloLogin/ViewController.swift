@@ -16,11 +16,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        lblWelcome.text = "Welcome to iOS Programming"
+        lblWelcome.text = "Welcome to iOS Programming "
+        
         print(lblWelcome.text!)
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func ClickMe(_ sender: UIButton) {
+        lblWelcome.text = "Oh! Dont click Me"
+    }
+    
 
 }
 
