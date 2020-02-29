@@ -10,8 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet var lblWelcome: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        lblWelcome.text = "Welcome to iOS Programming"
+        print(lblWelcome.text!)
         // Do any additional setup after loading the view.
     }
 
